@@ -10,10 +10,43 @@
      width: 32px;
      height: 32px; 
     }
+    h1,h2,h3,h4{
+      font-family: sans-serif;
+    }
+    #line_height{
+      color: red;
+      line-height: 1.5; 
+      /* line height 1.5 means that the line height will be 1.5 times the font size */
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+    aside{
+      background-color: #f7f7f7;
+      border: 5px solid #1098ad;
+      text-align: center;
+    }
+
+    article header p {
+      font-style: italic;
+    }
+
+    footer p {
+      color: blue;
+      font-size: 16px;
+    }
   </style>
 </head>
 <body>
-
+  <h1>Can i get a Hoyaaaa ? </h1>
+  <h2>Can i get a Hoyaaaa ? </h2>
+  <h3>Can i get a Hoyaaaa ? </h3>
+  <h4>Can i get a Hoyaaaa ? </h4>
+  
+  <article>
+    <header><p>This is Header of article</p></header>
+  </article>
+  
   <aside>
     <ul>
       <li>
@@ -27,11 +60,16 @@
       <p>By Johnny Sins</p>
     </li>
     <li>
-      <img src="related-3.jpg">
+      <img src="related-3.jpg" alt="Hello">
       <a href="related-3.jpg">How to Learn Web Development</a>
       <p>By Johnny Sins</p>
     </li>
     </ul>
   </aside>
+  <p id="line_height"> This is line height <em>Diiiiiillllllld</em> </p>
+
+  <footer> 
+    <p>This is footer %c</p>
+  </footer>
 </body>
 </html>
