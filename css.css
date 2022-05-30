@@ -153,6 +153,10 @@ aside {
     margin: 0 auto;
 }
 
+nav {
+    text-align: center;
+}
+
 nav a {
     /* display: block; */
     display: inline;
