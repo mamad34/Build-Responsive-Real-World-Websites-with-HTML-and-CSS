@@ -44,3 +44,20 @@ nav a:hover {
 nav a {
     margin: 0 30px;
 }
+
+article {
+    margin-top: 70px;
+}
+
+article h2 {
+    color: rgb(33, 33, 211);
+}
+
+article p {
+    margin-top: 20px;
+}
+
+article p::first-line {
+    color: blue;
+    font-size: larger;
+}
