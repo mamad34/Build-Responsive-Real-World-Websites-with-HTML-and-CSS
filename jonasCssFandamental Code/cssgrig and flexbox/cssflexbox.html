@@ -17,7 +17,7 @@
         
         .el--3 {
             background-color: green;
-            height: 150px;
+            height: 200px;
         }
         
         .el--4 {
@@ -44,9 +44,49 @@
             /* STARTER */
             font-family: sans-serif;
             background-color: #ddd;
-            font-size: 40px;
+            font-size: 32px;
             margin: 40px;
             /* FLEXBOX */
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            /* justify-content: center; horizontaly main */
+            /* justify-content: space-between;verticali cross */
+            /* align-items: flex-start; */
+            /* align-items: stretch; */
+            /* gap: 30px; */
+            /* gap is like margin between */
+        }
+        /* select all the items via el */
+        
+        .el {
+            /* margin-right: 15px; */
+            /* DEFAULT :
+            flex-grow: 0;
+            flex-shrink: 1;
+            flex-basis: auto;
+             */
+            /* flex-basis: 200px; */
+            /* hamon width*/
+            flex-shrink: 0;
+            /* shrink of 0 will remove flexible property */
+            flex-grow: 1;
+            /* flex grow let ele to grow as much as they can */
+        }
+        
+        .el--1 {
+            align-self: flex-start;
+            /* order: 2; */
+            /* flex-grow: 1; */
+        }
+        
+        .el--5 {
+            align-self: stretch;
+            order: 1;
+        }
+        
+        .el--6 {
+            order: -1;
         }
     </style>
 </head>
