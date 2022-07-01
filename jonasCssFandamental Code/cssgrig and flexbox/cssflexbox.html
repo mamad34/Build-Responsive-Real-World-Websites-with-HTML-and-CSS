@@ -54,7 +54,7 @@
             /* justify-content: space-between;verticali cross */
             /* align-items: flex-start; */
             /* align-items: stretch; */
-            /* gap: 30px; */
+            gap: 10px;
             /* gap is like margin between */
         }
         /* select all the items via el */
@@ -69,15 +69,25 @@
             /* flex-basis: 200px; */
             /* hamon width*/
             flex-shrink: 0;
-            /* shrink of 0 will remove flexible property */
-            flex-grow: 1;
+            /* shrink of 0 will remove flexible property DEFAULT IS 1*/
+            /* flex-grow: 1; */
             /* flex grow let ele to grow as much as they can */
+            /* flex: 1; */
+            /* flex = 1 is flex-grow = 1 */
+            /***********NOTE*********/
+            /*first flex-shrink : 0 */
+            /* second flex-grow : 0 */
+            /* flex-basis : 200px; */
+            /* flex: 0 0 200px */
+            flex: 1;
         }
         
         .el--1 {
             align-self: flex-start;
             /* order: 2; */
             /* flex-grow: 1; */
+            flex-grow: 2;
+            /* it means this ele will get double of the empty space */
         }
         
         .el--5 {
