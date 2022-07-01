@@ -214,7 +214,7 @@ nav a:link {
   padding: 20px;
   display: block; */
     margin-right: 30px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     display: inline-block;
 }
 
@@ -286,16 +286,29 @@ nav p {
 
 /* fLOATS */
 
+
+/* 
 .author-img {
     float: left;
-}
+} */
 
-.author {
-    /* padding-left: 80px; */
-    margin-left: 20px;
-    padding-top: 10px;
-    float: left;
-}
+
+/* .author { */
+
+
+/* padding-left: 80px; */
+
+
+/* margin-left: 20px; */
+
+
+/* padding-top: 10px; */
+
+
+/* float: left; */
+
+
+/* } */
 
 
 /* when two child ele got floated actually they are not there any more */
@@ -306,38 +319,121 @@ nav p {
 
 /* text and ele will wraap around the floated ele */
 
+
+/* 
 h1 {
     float: left;
 }
+ */
 
+
+/* 
 nav {
     float: right;
 }
+ */
 
-.clear {
-    /* clearin both righ and left float */
-    clear: both;
-}
 
-.clearfix::after {
-    clear: both;
-    /* psudo ele need content */
-    content: "";
-    /* psudo ele are inline ele and clearin only works on block level ele */
-    display: block;
-}
+/* .clear { */
 
+
+/* clearin both righ and left float */
+
+
+/* clear: both; */
+
+
+/* } */
+
+
+/* .clearfix::after { */
+
+
+/* clear: both; */
+
+
+/* psudo ele need content */
+
+
+/* content: ""; */
+
+
+/* psudo ele are inline ele and clearin only works on block level ele */
+
+
+/* display: block; */
+
+
+/* } */
+
+
+/*
 article {
     width: 825px;
     float: left;
 }
+*/
 
+
+/*
 aside {
     width: 300px;
     float: right;
 }
+*/
 
+
+/*
 footer {
     clear: both;
     /* footer will float around so clear both */
+
+
+/* } */
+
+
+/*
+
+/* ***************EDN OF FLOAT*************/
+
+
+/* FLEXBOX PART */
+
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.athur-box {
+    display: flex;
+    align-items: center;
+}
+
+.author {
+    margin-bottom: 0;
+    margin-left: 15px;
+}
+
+.realted-post {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: italic;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.related-author {
+    margin-bottom: 0;
+}
+
+.related-link:link {
+    font-size: 17px;
+    font-weight: bold;
+    font-style: normal;
+    margin-bottom: 10px;
+    /* margin top dose not work on links cuse they are inline ele */
+    display: block;
 }
