@@ -437,3 +437,27 @@ footer {
     /* margin top dose not work on links cuse they are inline ele */
     display: block;
 }
+
+.row {
+    display: flex;
+    align-items: flex-start;
+    /* all the flex items grow as much as they can so by 
+    adding align to flex start the item just use space as it need */
+    gap: 75px;
+    margin: bottom 60px;
+}
+
+.article {
+    flex: 1;
+    margin-bottom: 0;
+}
+
+aside {
+    /*
+    DEFAULTS
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto; 
+    */
+    flex: 0 0 300px;
+}
