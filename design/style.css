@@ -64,6 +64,7 @@ btn:visited {
     /* font-size: 18px;
     padding: 16px 32px; */
     display: inline-block;
+    border-radius: 100px;
 }
 
 .btn:hover,
@@ -79,6 +80,10 @@ btn:visited {
 .btn--small {
     font-size: 14px;
     padding: 8px 12px;
+}
+
+img {
+    border-radius: 12px;
 }
 
 
@@ -149,7 +154,7 @@ img {
     background-color: #087f5b;
     color: #ffff;
     padding: 24px;
-    border-radius: 10px;
+    border-radius: 12px;
 }
 
 .testimonial-box {
@@ -174,6 +179,12 @@ img {
 .chair {
     padding: 24px;
     box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
+    border-radius: 12px;
+}
+
+.chair img {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
 }
 
 .chair-box {
