@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Componenet</title>
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+        }
+        
+        table {
+            width: 800px;
+            color: #343a40;
+            line-height: 1;
+            margin-top: 100px;
+            /* border: 1px solid #343a40; */
+            border-collapse: collapse;
+        }
+        
+        td,
+        th {
+            /* border: 1px solid #343a40; */
+            padding: 16px 24px;
+            text-align: left;
+        }
+        
+        thead th {
+            background-color: #087f5b;
+            color: #fff;
+            width: 25%;
+        }
+        
+        tbody tr:nth-child(odd) {
+            background-color: rgb(179, 168, 161);
+        }
+        
+        tbody tr:nth-child(even) {
+            background-color: rgb(225, 223, 221);
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <table>
+        <thead>
+            <th>Chair</th>
+            <th>Lamb of god</th>
+            <th>laid to rest</th>
+            <th>Johnny sins</th>
+        </thead>
+        <tbody>
+            <tr>
+                <th>width</th>
+                <td>80 CM</td>
+                <td>60 CM</td>
+                <td>220 CM</td>
+            </tr>
+            <tr>
+                <th>Hight</th>
+                <td>10 CM</td>
+                <td>990 CM</td>
+                <td>85 CM</td>
+            </tr>
+            <tr>
+                <th>Depth</th>
+                <td>70 CM</td>
+                <td>65 CM</td>
+                <td> 80 CM</td>
+            </tr>
+            <tr>
+                <th>weight</th>
+                <td>16KG</td>
+                <td>22KG</td>
+                <td>80KG</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+</body>
+
+</html>
