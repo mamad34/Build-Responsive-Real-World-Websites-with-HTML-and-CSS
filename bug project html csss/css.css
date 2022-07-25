@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Edu TAS Beginner", cursive;
+    font-family: "Inter", sans-serif;
+    font-family: "Rubik", sans-serif;
+    background-color: #f6f7f8;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: #424243;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    height: 24px;
+}
+
+a:link:hover {
+    color: #ff0076;
+}
+
+header {
+    background-color: rgba(228, 229, 233, 0.8);
+    padding: 18px;
+    border-top: 5px solid rgb(54, 54, 54);
+    width: 100%;
+    position: fixed;
+    backdrop-filter: blur(2px);
+}
+
+.header-container {
+    display: flex;
+    gap: 24px;
+}
+
+.header-btn {
+    border: none;
+    padding: 4px 8px;
+    background-color: #ccfe69;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.header-btn:hover {
+    color: #d94bff;
+}
+
+h1 {
+    color: #646466;
+    margin-top: 64px;
+}
+
+h2 {
+    color: #ff0076;
+}
+
+main {
+    line-height: 5;
+    margin-left: 24px;
+}
+
+.main-container {
+    display: flex;
+    height: 100vh;
+    /* width: 100vh; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(miguel-angel-hernandez--TSq0f3D5Qk-unsplash.jpg);
+    background-size: cover;
+    border-radius: 0 0 5px 5px;
+}
+
+p {
+    color: #fff;
+    margin-top: 24px;
+}
+
+main p:nth-child(4) {
+    color: #ff0076;
+}
+
+.main-btn {
+    margin-top: 24px;
+    border: none;
+    padding: 24px 48px;
+    border-radius: 5px;
+    background-color: #ccfe69;
+    color: black;
+    font-size: larger;
+}
+
+.main-btn:hover {
+    background-color: #a3cb54;
+    cursor: pointer;
+}
+
+img {
+    height: 256px;
+    border-radius: 25px 0 0 25px;
+    box-shadow: 5px 5px 20px;
+}
+
+.carousel {
+    display: flex;
+    align-items: center;
+    background-color: #b8b5b5;
+    border-radius: 24px;
+    margin-top: 64px;
+}
+
+.testomonial {
+    text-align: center;
+}
+
+.testomonial-text {
+    color: #f6f7f8;
+}
+
+.testomonial-author {
+    color: #f6f7f8;
+}
+
+.testomonial-job {
+    color: #f6f7f8;
+}
+
+.arrow-down {
+    width: 32px;
+    height: 32px;
+    margin-top: 24px;
+}
+
+.arrow-down:hover {
+    cursor: pointer;
+}
+
+table {
+    margin-top: 64px;
+    width: 100%;
+    line-height: 3;
+    text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgb(179, 168, 161);
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(225, 223, 221);
+}
+
+thead {
+    background-color: #727274;
+}
+
+.guitar-box {
+    margin-top: 64px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 80px;
+}
+
+.first-guitar {}
+
+.second-guitar {}
